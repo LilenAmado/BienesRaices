@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.7; 
+}
+/**********************************************************************************************/
+.logo{
+    margin-top: 5rem;
+}
+.flexH{
+    display: flex;
+    justify-content: space-between;
+}
+.navH{
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+.navHAdentro{
+    padding-left: 2rem;
+    text-decoration: none;
+    color:white;
+    font-size: 1.8rem;
+}
+.navHAdentro:hover{
+    text-decoration: none;
+    color:rgb(81, 81, 197);
+    color: #71B100;
+}
+.mobile-menu{
+    display: none;
+}
+.tituloH{
+    color: white;
+    margin-top: 30rem;
+    font-size: 4rem;
+}
+.segtituloH{
+    color:white;
+    margin-top: 1rem;
+    font-size: 3.3rem;
+    margin-bottom: 15rem;
+}
+.header{
+    background-color: rgb(160, 160, 160);
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    background-position: center center;
+}
+.header2{
+    filter: grayscale(100%);
+}
+.secundario{margin-bottom: 1rem;}
+.titulos{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 3.5rem;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cardsMasNos{
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.h3{
+    color: black;
+    font-size: 2.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+.textNos{
+    text-align: justify;
+}
+.imgProp{
+    width: 100%;
+}
+.cardsProp{
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 1px solid #B5B5B5;
+    background-color: #F5F5F5;
+}
+.h3prod{
+    color: black;
+    font-size: 2.8rem;
+    text-align: start ;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.pProp{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: 400;
+}
+.dinero{
+    padding-left: 1.5rem;
+    color: #71B100;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.botonProp{
+    font-size: 1.8rem;
+    border: orange 1px solid;
+    width: 100%;
+    height: 5.5rem;
+    padding-top: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    background-color: #E08709;
+    color: white;
+    font-weight: 700;
+}
+.botonProp:hover{
+    background-color: black;
+    border: black 1px solid;
+    color: white;
+    transition: all .6s ease;
+}
+.botonVerMas{
+    font-size: 1.8rem;
+    border: #558502 1px solid;
+    height: 5rem;
+    background-color: #639b03;
+    color: white;
+    font-weight: 700;
+    padding-top: 1rem;
+    text-decoration: none;
+    color: white;
+    width: 20rem;
+    max-width: 20rem;
+    margin-left: 80.5%;
+    margin-bottom: 3rem;
+}
+.botonVerMas:hover{
+    background-color: black;
+    border: black 1px solid;
+    color: white;
+    transition: all .6s ease;
+}
+.fondoEncuentra{
+    background-color: rgb(160, 160, 160);
+    background-image: url(../img/encuentra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(109, 109, 109);
+}
+.h2Encuentra{
+    color: white;
+    font-size: 3.2rem;
+    padding-top: 13rem;
+}
+.pEncuentra{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 5rem;
+}
+.botonEncuentra{
+    font-size: 1.8rem;
+    border: orange 1px solid;
+    width: 20rem;
+    max-width: 20rem;
+    height: 5rem;
+    padding-top: 1rem;
+    background-color: #E08709;
+    color: white;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.botonEncuentra:hover{
+    background-color: black;
+    border: black 1px solid;
+    color: white;
+    transition: all .6s ease;
+}
+.imgNueBlog{
+    width: 25rem;
+}
+.imgBlog2{
+    width: 30rem;
+    margin-left: 10rem;
+}
+.mL{margin-left: -10rem;}
+.mL1{margin-left: 0rem;}
+.h4NueBlog{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.marg{margin-top: 5rem;}
+.mar{
+    margin-top: 2rem; 
+    color:black; 
+    text-align: justify;
+}
+.h4NueBlog::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71B100;
+    margin-top: 1rem;
+}
+.emm{color: peru; 
+    font-weight: 500;
+}
+.Hiper:hover{
+    text-decoration: none;
+}
+.test{
+    background-color: #71B100;
+    margin-top: 5rem;
+    color: white;
+    padding: 1rem;
+    width: 47rem;
+    max-width: 47rem;
+    margin:1rem;
+    margin-top: 5rem;
+    border-radius: 25px;
+    margin-left: 8rem;
+}
+blockquote>p{
+    font-size: 2.2rem;
+    margin:4rem;
+    font-weight: 200;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer{
+    background-color: rgb(85, 82, 82);
+    margin-top: 3rem;
+    width: 100%;
+}
+.footH{
+    text-decoration: none;
+    color:white;
+    font-size: 1.8rem;
+    padding-right: 2rem;
+}
+.footH:hover{
+    text-decoration: none;
+    color:rgb(44, 44, 150);
+    color: #71B100;
+    font-weight: 600;
+}
+.footNav{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.derechos{
+    margin-left: 19rem;
+}
+.imgNos{
+    display: block;
+    margin:auto;
+    margin-top: 2rem;
+}
+.imgN{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pNos{text-align: justify;}
+
+/*Contacto*/
+.fondoContacto{
+    background-color: rgb(160, 160, 160);
+    background-image: url(../img/destacada3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    height: 300px;
+    margin-top: 3rem;
+}
+.botonContacto{
+    font-size: 1.8rem;
+    border: #558502 1px solid;
+    height: 4rem;
+    background-color: #639b03;
+    color: white;
+    font-weight: 700;
+    padding-top: .3rem;
+    color: white;
+    width: 20rem;
+    max-width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.botonContacto:hover{
+    background-color: black;
+    border: black 1px solid;
+    color: white;
+    transition: all .6s ease;
+}
+label,input:not([type="radio"]),textarea::placeholder{
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.legend1,.legend2,.legend3{
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(83, 83, 83);
+}
+.legend1{width: 28.5%;}
+.legend2{width: 36.5%;}
+.legend3{width: 32%;}
+input[type="text"], input[type="email"], input[type="tel"], textarea, .option1, input[type="number"], input[type="date"], input[type="time"]{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border:none;
+    border-radius: 1rem;
+    color:black;
+}
+textarea{height: 15rem;}
+.flexCon{display: flex;}
+.margC{
+    margin-left: 1rem; 
+    margin-top: 1rem;
+    margin-right:1rem;
+}
+fieldset{
+    border: 2px solid grey;
+    margin-top: 2rem;
+}
+fieldset>p{font-size: 1.4rem;}
+form{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:0px) and (max-width:769px){
+    .logo{
+        width: 90%;
+    }
+    .tituloH{
+        font-size: 3rem;
+    }
+    .segtituloH{
+        font-size: 3rem;
+    }
+    .grid2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .botonVerMas{
+        display: block;
+        margin: 5rem auto;
+    }
+    .imgNueBlog{
+        width: 60vw;
+        border: 1px solid grey;
+    }
+    .maxw{
+        display: block;
+        margin:auto;
+    }
+    .mL{
+        width: 80%;
+        display: block;
+        margin: 3rem auto;
+    }
+    .test{
+        width: 95%;
+        display: block;
+        margin:auto;
+        margin-top: 3rem;
+    }
+    .footNav{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+    .estF{display:none;}
+    .footNav>a{font-size: 2rem;}
+    .derechos{
+        display: block;
+        margin:auto;
+        margin-bottom: 1.5rem;
+    }
+    .cardsProp{width: 100%;}
+    .cardsMasNos{width: 100%;}
+    /*NAV*/
+    .flexH{display: block;}
+    .navH{
+        margin-left: -1rem;
+        margin-top: 0rem;
+    }
+    .navHAdentro{
+        margin-top: 1.5rem;
+        display: block;
+        font-size: 100%;
+    }
+    .mobile-menu{
+        display: block;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mobile-menu img{width: 3rem;}
+    .navegacion{display: none;}
+    .navegacion:target{display: block;}
+    .imgNueBlog{
+        width: 25rem;
+    }
+    .imgBlog2{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .mL{margin-left: 3rem;}
+    .imgBlog1{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    /*CONTACTO*/
+    .legend1{width: 50%;}
+    .legend2{width: 63%;}
+    .legend3{width: 55.5%;}
+    .flexCon{display: block;}
+    .displayC{display: flex;}
+    .margC{margin:0rem;}
+    .botonContacto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form{
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:770px) and (max-width:990px){
+    .grid2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .botonVerMas{
+        display: block;
+        margin: 5rem auto;
+    }
+    .imgNueBlog{
+        width: 60vw;
+        border: 1px solid grey;
+    }
+    .maxw{
+        display: block;
+        margin:auto;
+    }
+    .mL{
+        width: 80%;
+        display: block;
+        margin: 3rem auto;
+    }
+    .test{
+        margin-top: 5rem;
+        width: 50rem;
+        max-width: 50rem;
+        margin:1rem;
+        margin-top: 5rem;
+        margin-left: 9rem;
+    }
+    .footNav{
+        margin-left: 13rem;
+        font-size: 1.8rem;
+    }
+    .derechos{margin-left: 18rem;}
+    .footNav>a{font-size: 2rem;}
+    .cardsProp{width: 98%;}
+    .cardsMasNos{width: 97%;}
+    /*NAV*/
+    .flexH{display: block;}
+    .navH{
+        margin-left: -1rem;
+        margin-top: 0rem;
+    }
+    .navHAdentro{
+        margin-top: 1.5rem;
+        display: block;
+        font-size: 2rem;
+    }
+    .mobile-menu{
+        display: block;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mobile-menu img{width: 3rem;}
+    .navegacion{display: none;}
+    .navegacion:target{display: block;}
+    .imgNueBlog{
+        width: 25rem;
+    }
+    .imgBlog2{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .mL{margin-left: 3rem;}
+    .mL1{margin-left: 5rem;}
+    .imgBlog1{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    /*CONTACTO*/
+    .legend1{width: 36.5%;}
+    .legend2{width: 47%;}
+    .legend3{width: 41%;}
+    form{
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:991px) and (max-width:1199px){
+    .grid2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .botonVerMas{
+        display: block;
+        margin: 5rem auto;
+    }
+    .imgNueBlog{
+        width: 60vw;
+        border: 1px solid grey;
+    }
+    .maxw{
+        display: block;
+        margin:auto;
+    }
+    .mL{
+        width: 80%;
+        display: block;
+        margin: 3rem auto;
+    }
+    .test{
+        width: 95%;
+        display: block;
+        margin:auto;
+        margin-top: 3rem;
+    }
+    .footNav{
+        margin-left: 25rem;
+        font-size: 1.8rem;
+    }
+    .derechos{margin-left: 30rem;}
+    .footNav>a{font-size: 2rem;}
+    .cardsProp{width: 98%;}
+    .cardsMasNos{width: 97%;}
+    /*NAV*/
+    .flexH{display: block;}
+    .navH{
+        margin-left: -1rem;
+        margin-top: 0rem;
+    }
+    .navHAdentro{
+        margin-top: 1.5rem;
+        display: block;
+        font-size: 2rem;
+    }
+    .mobile-menu{
+        display: block;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .mobile-menu img{width: 3rem;}
+    .navegacion{display: none;}
+    .navegacion:target{display: block;}
+    .imgN{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imgNueBlog{
+        width: 25rem;
+    }
+    .imgBlog2{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .mL{margin-left: 15rem;}
+    .mL1{margin-left: 10rem;}
+    .imgBlog1{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    /*CONTACTO*/
+    .legend1{width: 29.5%;}
+    .legend2{width: 38.5%;}
+    .legend3{width: 33.5%;}
+    form{
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width:560px) and (max-width:767px){.logo{width: 40%;}}
+@media screen and (min-width:568px) and (max-width:769px){.logo{width: 60%;}}
+@media screen and (min-width:518px){.h3C{display: none;}}
+@media screen and (max-width:519px){
+    .h3C{
+        display: block;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: rgb(83, 83, 83);
+        font-size: 1.7rem;/*1.5rem*/
+        margin-top: 1rem;
+    }
+    .legend1,.legend2,.legend3{display: none;}
+}
